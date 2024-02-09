@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .breadcrumb {
+      background: transparent;
+      padding: 0;
+    }
+    .breadcrumb-item + .breadcrumb-item::before {
+      content: ">";
+    }
+    .list-group-item {
+      border: none;
+      border-left: 4px solid green;
+      position: relative;
+      padding-left: 1.5rem;
+    }
+    .list-group-item.active {
+      border-left-color: black;
+      background-color: #f5f5f5;
+    }
+    .list-group-item:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+    .list-group-item i.fa {
+      position: absolute;
+      left: 0;
+    }
+    .assignment-btns {
+      margin-bottom: 1rem;
+    }
+    .assignment-btns .btn {
+      margin-right: 0.5rem;
+    }
+    .search-bar {
+      width: 25%;
+      margin-bottom: 1rem;
+    }
+    .percent-total {
+      padding: 0.375rem 0.75rem;
+      border: 1px solid #000;
+      border-radius: 0.25rem;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-4">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Course Name</a></li>
+        <li class="breadcrumb-item"><a href="#">Term Section</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Assignments</li>
+      </ol>
+    </nav>
+
+    <div class="d-flex justify-content-end assignment-btns">
+      <button type="button" class="btn btn-light">
+        <i class="fa fa-users"></i> Group
+      </button>
+      <button type="button" class="btn btn-light">
+        <i class="fa fa-plus"></i> Assignment
+      </button>
+      <button type="button" class="btn btn-light">
+        <i class="fa fa-ellipsis-v"></i>
+      </button>
+      <span class="percent-total">
+        40% of Total
+      </span>
+    </div>
+
+    <input type="search" class="form-control search-bar" placeholder="Search for Assignment">
+
+    <div class="list-group">
+      <!-- Replace with actual assignments -->
+      <a href="#" class="list-group-item active">
+        <i class="fa fa-file-text-o"></i> A1 SETUP
+        <span class="float-end">
+          <i class="fa fa-check-circle text-success"></i>
+          <i class="fa fa-plus-circle"></i>
+          <i class="fa fa-ellipsis-v"></i>
+        </span>
+      </a>
+      <!-- Repeat for other assignments -->
+    </div>
+  </div>
+</body>
+</html>

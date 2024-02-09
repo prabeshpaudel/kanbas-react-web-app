@@ -1,0 +1,21 @@
+.form-container {
+    max-width: 600px;
+    margin: auto;
+  }
+  .form-group-icon {
+    position: relative;
+  }
+  .form-group-icon .fa {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10;
+  }
+
+  .card-footer {
+    padding: 0;
+  }
+  .card-footer .btn-block {
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+  }

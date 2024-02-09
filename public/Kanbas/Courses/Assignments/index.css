@@ -1,0 +1,19 @@
+.search-bar {
+    margin-bottom: 1rem;
+  }
+  .percent-total {
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #000;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+  }
+  .assignment-btn {
+    margin-left: 0.5rem;
+  }
+
+  #special-text {
+    border: 1px solid grey; 
+    padding: 3px;
+    border-radius: 1rem;
+    color: black;
+  }

@@ -1,77 +1,124 @@
 <html>
-
+<head>
+  <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="/Kanbas/Courses/Assignments/Edit/index.css" />
+</head>
 <body>
-  <form id="text-fields">
-    <select id="gradeType">
-      <option value="speedgrader">Speedgrader</option>
-      <option value="option2">Option 2</option>
-    </select>
-    <br>
-    <hr>
-    <h2>Assignment Name</h2>
-    <input type="text" id="assignmentName" value="A1 - ENV + HTML">
-    <br><br>
-    <textarea id="assignmentDescription">This is the assignment description.</textarea>
-    <br><br>
-    <label for="points">Points</label><br>
-    <input type="text" id="points" value="100">
-    <br><br>
-    <label for="assignmentGroup">Assignment Group</label><br>
-    <select id="assignmentGroup">
-      <option value="assignments">ASSIGNMENTS</option>
-    </select>
-    <br><br>
-    <label for="displayGrade">Display Grade as</label><br>
-    <select id="displayGrade"><br><br>
-      <option value="percentage">Percentage</option><br>
-      <option value="points">Points</option>
-    </select>
-    <br><br>
-    <label for="submissionType">Submission Type</label><br>
-    <select id="submissionType"><br>
-      <option value="online">Online</option>
-    </select>
-    <br><br>
+  <div class="container mt-5 form-container">
+    <form>
+      <div class="form-group mb-3">
+        <label for="assignmentName">Assignment Name</label>
+        <input type="text" id="assignmentName" class="form-control" placeholder="A1 - ENV + HTML">
+      </div>
 
-    <label>Online Entry Options</label><br>
-    <input type="checkbox" id="textEntry" name="entryOption" value="textEntry">
-    <label for="textEntry">Text Entry</label><br>
+      <div class="form-group mb-3">
+        <textarea class="form-control"
+          rows="4">This assignment describes how to install the development environment for creating and working with Web applications we will be developing this semester. We will add new content every week, pushing the code to a GitHub source repository, and then deploying the content to a remote server hosted on Netlify.</textarea>
+      </div>
+      <!-- Points -->
+      <div class="form-group row mb-3">
+        <label for="points" class="col-sm-3 col-form-label text-sm-right">Points</label>
+        <div class="col-sm-9">
+          <input type="number" id="points" class="form-control" value="100">
+        </div>
+      </div>
 
-    <input type="checkbox" id="websiteURL" name="entryOption" value="websiteURL">
-    <label for="websiteURL">Website URL</label><br>
+      <!-- Assignment Group -->
+      <div class="form-group row mb-3">
+        <label for="assignmentGroup" class="col-sm-3 col-form-label text-sm-right">Assignment Group</label>
+        <div class="col-sm-9">
+          <select id="assignmentGroup" class="form-control">
+            <option selected>ASSIGNMENTS</option>
+            <!-- Other options -->
+          </select>
+        </div>
+      </div>
 
-    <input type="checkbox" id="mediaRecordings" name="entryOption" value="mediaRecordings">
-    <label for="mediaRecordings">Media Recordings</label><br>
+      <div class="form-group row mb-3">
+        <label for="displayGrade" class="col-sm-3 col-form-label text-sm-right">Display Grade as</label>
+        <div class="col-sm-9">
+          <select id="displayGrade" class="form-control">
+            <option selected>Percentage</option>
+          </select>
+        </div>
+      </div>
 
-    <input type="checkbox" id="studentAnnotation" name="entryOption" value="studentAnnotation">
-    <label for="studentAnnotation">Student Annotation</label><br>
+      <div class="form-check mb-3">
+        <input type="checkbox" id="excludeGrade" class="form-check-input">
+        <label for="excludeGrade" class="form-check-label">Do not count this assignment towards the final grade</label>
+      </div>
 
-    <input type="checkbox" id="fileUploads" name="entryOption" value="fileUploads">
-    <label for="fileUploads">File Uploads</label><br>
-    <br>
-    <label>Assign</label><br>
-    <label for="assignTo">Assign to</label><br>
-    <select id="assignTo">
-      <option value="everyone">Everyone</option>
-    </select>
-    <br><br>
-    <label for="dueDate">Due</label><br>
-    <input type="date" id="dueDate" value="2021-01-01">
-    <br><br>
-    <label for="availableFrom">Available from</label><br>
-    <input type="date" id="availableFrom" value="2021-01-01">
-    <br><br>
-    <label for="untilDate">Until</label><br>
-    <input type="date" id="untilDate" value="2021-01-01">
-    <br><br>
-    <a href="/Kanbas/Courses/Assignments/screen.html">
-      <button type="button">Cancel</button>
-      <button type="button">Save</button>
-    </a>
-    <!-- <button type="button">Cancel</button>
-    <button type="button">Save</button> -->
-  </form>
+      <div class="container">
+        <div class="row">
+          <!-- Label "Assign" to the left -->
+          <div class="col-sm-3 d-flex">
+            <label for="assignCard" class="col-form-label">Assign</label>
+          </div>
 
+          <!-- Card to the right -->
+          <div class="col-sm-9">
+            <div class="card mb-4" id="assignCard">
+              <div class="card-body">
+                <h5 class="card-title">Assign to</h5>
+                <form>
+                  <div class="form-row align-items-center mb-2">
+                    <div class="col-auto">
+                      <div class="input-group mb-2">
+                        <input type="text" class="form-control" id="assignTo" placeholder="Everyone">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="datePicker"><strong>Due</strong></label>
+                    <input type="datetime-local" class="form-control" id="datePicker" value="2023-09-18T23:59">
+                  </div>
+                  <br>
+                  <div class="row">
+                    <!-- Available From Datetime Selector -->
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="availableFrom"><strong>Available from</strong></label>
+                        <input type="datetime-local" class="form-control" id="availableFrom" value="2023-09-06T12:00">
+                      </div>
+                    </div>
+
+                    <!-- Until Datetime Selector -->
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="until"><strong>Until</strong></label>
+                        <input type="datetime-local" class="form-control" id="until" value="2023-10-10T23:59">
+                      </div>
+                    </div>
+
+                    <button type="button" class="btn btn-secondary btn-block mt-3"
+                      style="color: black; background-color: lightgray;">
+                      <i class="fa fa-plus"></i> Add
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-md-8 form-check mb-3">
+          <input type="checkbox" id="excludeGrade" class="form-check-input">
+          <label for="excludeGrade" class="form-check-label">Notify users that this content has changed</label>
+        </div>
+
+        <div class="col-md-4 d-flex justify-content-end mb-3">
+          <button type="button" class="btn btn-secondary align-self-center"
+            style="color: black; background-color: lightgray; margin-right: 8px;">
+            Cancel
+          </button>
+          <button type="button" class="btn btn-secondary align-self-center"
+            style="color: white; background-color: red;">
+            Save
+          </button>
+        </div>
+      </div>
 </body>
-
 </html>
