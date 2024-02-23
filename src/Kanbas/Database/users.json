@@ -1,0 +1,462 @@
+[
+    {
+        "_id": "121",
+        "username": "iron_man",
+        "password": "stark123",
+        "firstName": "Tony",
+        "lastName": "Stark",
+        "email": "tony@stark.com",
+        "dob": "1970-05-29",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "128",
+        "username": "elf_archer",
+        "password": "legolas123",
+        "firstName": "Captain",
+        "lastName": "America",
+        "email": "captain@america.com",
+        "dob": "2879-07-15",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "129",
+        "username": "elf_archer",
+        "password": "legolas123",
+        "firstName": "Legolas",
+        "lastName": "Greenleaf",
+        "email": "legolas@mirkwood.com",
+        "dob": "2879-07-15",
+        "role": "FACULTY"
+    },
+    {
+        "_id": "130",
+        "username": "user_130",
+        "password": "pass130123",
+        "firstName": "Anita",
+        "lastName": "Dahal",
+        "email": "user130@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "131",
+        "username": "user_131",
+        "password": "pass131123",
+        "firstName": "Manisha",
+        "lastName": "Rana",
+        "email": "user131@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "132",
+        "username": "user_132",
+        "password": "pass132123",
+        "firstName": "Bijay",
+        "lastName": "Magar",
+        "email": "user132@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "133",
+        "username": "user_133",
+        "password": "pass133123",
+        "firstName": "Aarav",
+        "lastName": "Dahal",
+        "email": "user133@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "134",
+        "username": "user_134",
+        "password": "pass134123",
+        "firstName": "Pooja",
+        "lastName": "Dahal",
+        "email": "user134@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "135",
+        "username": "user_135",
+        "password": "pass135123",
+        "firstName": "Anita",
+        "lastName": "Tamang",
+        "email": "user135@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "136",
+        "username": "user_136",
+        "password": "pass136123",
+        "firstName": "Laxmi",
+        "lastName": "Magar",
+        "email": "user136@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "137",
+        "username": "user_137",
+        "password": "pass137123",
+        "firstName": "Anita",
+        "lastName": "Poudel",
+        "email": "user137@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "138",
+        "username": "user_138",
+        "password": "pass138123",
+        "firstName": "Pooja",
+        "lastName": "Sharma",
+        "email": "user138@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "139",
+        "username": "user_139",
+        "password": "pass139123",
+        "firstName": "Bijay",
+        "lastName": "Karki",
+        "email": "user139@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "140",
+        "username": "user_140",
+        "password": "pass140123",
+        "firstName": "Sunita",
+        "lastName": "Tamang",
+        "email": "user140@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "141",
+        "username": "user_141",
+        "password": "pass141123",
+        "firstName": "Bijay",
+        "lastName": "Sharma",
+        "email": "user141@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "142",
+        "username": "user_142",
+        "password": "pass142123",
+        "firstName": "Sunita",
+        "lastName": "Poudel",
+        "email": "user142@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "143",
+        "username": "user_143",
+        "password": "pass143123",
+        "firstName": "Laxmi",
+        "lastName": "Dahal",
+        "email": "user143@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "144",
+        "username": "user_144",
+        "password": "pass144123",
+        "firstName": "Nabin",
+        "lastName": "Tamang",
+        "email": "user144@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "145",
+        "username": "user_145",
+        "password": "pass145123",
+        "firstName": "Aarav",
+        "lastName": "Gurung",
+        "email": "user145@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "146",
+        "username": "user_146",
+        "password": "pass146123",
+        "firstName": "Pooja",
+        "lastName": "Dahal",
+        "email": "user146@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "147",
+        "username": "user_147",
+        "password": "pass147123",
+        "firstName": "Pooja",
+        "lastName": "Sharma",
+        "email": "user147@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "148",
+        "username": "user_148",
+        "password": "pass148123",
+        "firstName": "Rajesh",
+        "lastName": "Dahal",
+        "email": "user148@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "149",
+        "username": "user_149",
+        "password": "pass149123",
+        "firstName": "Bijay",
+        "lastName": "Dahal",
+        "email": "user149@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "150",
+        "username": "user_150",
+        "password": "pass150123",
+        "firstName": "Nabin",
+        "lastName": "Dahal",
+        "email": "user150@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "151",
+        "username": "user_151",
+        "password": "pass151123",
+        "firstName": "Bimal",
+        "lastName": "Karki",
+        "email": "user151@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "152",
+        "username": "user_152",
+        "password": "pass152123",
+        "firstName": "Bimal",
+        "lastName": "Bhattarai",
+        "email": "user152@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "153",
+        "username": "user_153",
+        "password": "pass153123",
+        "firstName": "Bijay",
+        "lastName": "Sharma",
+        "email": "user153@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "154",
+        "username": "user_154",
+        "password": "pass154123",
+        "firstName": "Pooja",
+        "lastName": "Poudel",
+        "email": "user154@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "155",
+        "username": "user_155",
+        "password": "pass155123",
+        "firstName": "Nabin",
+        "lastName": "Rana",
+        "email": "user155@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "156",
+        "username": "user_156",
+        "password": "pass156123",
+        "firstName": "Bimal",
+        "lastName": "Sharma",
+        "email": "user156@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "157",
+        "username": "user_157",
+        "password": "pass157123",
+        "firstName": "Laxmi",
+        "lastName": "Bhattarai",
+        "email": "user157@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "158",
+        "username": "user_158",
+        "password": "pass158123",
+        "firstName": "Sunita",
+        "lastName": "Sharma",
+        "email": "user158@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "159",
+        "username": "user_159",
+        "password": "pass159123",
+        "firstName": "Rajesh",
+        "lastName": "Tamang",
+        "email": "user159@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "160",
+        "username": "user_160",
+        "password": "pass160123",
+        "firstName": "Rajesh",
+        "lastName": "Dahal",
+        "email": "user160@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "161",
+        "username": "user_161",
+        "password": "pass161123",
+        "firstName": "Nabin",
+        "lastName": "Magar",
+        "email": "user161@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "162",
+        "username": "user_162",
+        "password": "pass162123",
+        "firstName": "Sunita",
+        "lastName": "Magar",
+        "email": "user162@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "163",
+        "username": "user_163",
+        "password": "pass163123",
+        "firstName": "Sunita",
+        "lastName": "Magar",
+        "email": "user163@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "164",
+        "username": "user_164",
+        "password": "pass164123",
+        "firstName": "Bimal",
+        "lastName": "Poudel",
+        "email": "user164@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "165",
+        "username": "user_165",
+        "password": "pass165123",
+        "firstName": "Rajesh",
+        "lastName": "Thapa",
+        "email": "user165@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "166",
+        "username": "user_166",
+        "password": "pass166123",
+        "firstName": "Laxmi",
+        "lastName": "Rana",
+        "email": "user166@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "167",
+        "username": "user_167",
+        "password": "pass167123",
+        "firstName": "Bimal",
+        "lastName": "Poudel",
+        "email": "user167@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "168",
+        "username": "user_168",
+        "password": "pass168123",
+        "firstName": "Bimal",
+        "lastName": "Bhattarai",
+        "email": "user168@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "169",
+        "username": "user_169",
+        "password": "pass169123",
+        "firstName": "Anita",
+        "lastName": "Sharma",
+        "email": "user169@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "170",
+        "username": "user_170",
+        "password": "pass170123",
+        "firstName": "Pooja",
+        "lastName": "Dahal",
+        "email": "user170@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "171",
+        "username": "user_171",
+        "password": "pass171123",
+        "firstName": "Bijay",
+        "lastName": "Gurung",
+        "email": "user171@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    },
+    {
+        "_id": "172",
+        "username": "user_172",
+        "password": "pass172123",
+        "firstName": "Rajesh",
+        "lastName": "Sharma",
+        "email": "user172@example.com",
+        "dob": "2000-01-01",
+        "role": "STUDENT"
+    }
+]

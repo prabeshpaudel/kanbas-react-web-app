@@ -1,0 +1,134 @@
+[
+    {
+        "_id": "A101",
+        "title": "Propulsion Assignment",
+        "course": "RS101",
+        "dueDate": "Sep 18, 2022 at 11:59PM",
+        "points": 100,
+        "description": "Week 0 - Introduction to Propulsion Systems",
+        "availableFrom": "2022-09-11T23:59",
+        "availableUntil": "2022-09-25T23:59",
+        "due": "2023-09-18T23:59"
+    },
+    {
+        "_id": "A102",
+        "title": "Combustion Analysis",
+        "course": "RS101",
+        "dueDate": "Sep 25, 2022 at 11:59PM",
+        "points": 100,
+        "description": "Week 1 - Fundamentals of Combustion",
+        "availableFrom": "2022-09-18T23:59",
+        "availableUntil": "2022-10-02T23:59",
+        "due": "2023-09-18T23:59"
+    },
+    {
+        "_id": "A103",
+        "title": "Nozzle Design Project",
+        "course": "RS101",
+        "dueDate": "Oct 02, 2022 at 11:59PM",
+        "points": 100,
+        "description": "Week 2 - Nozzle Theory and Design",
+        "availableFrom": "2022-09-25T23:59",
+        "availableUntil": "2022-10-09T23:59",
+        "due": "2023-09-18T23:59"
+    },
+    {
+        "_id": "A104",
+        "title": "Propulsion System Integration",
+        "course": "RS101",
+        "dueDate": "Oct 09, 2022 at 11:59PM",
+        "points": 100,
+        "description": "Week 3 - Integrating Propulsion Systems into Airframes",
+        "availableFrom": "2022-10-02T23:59",
+        "availableUntil": "2022-10-16T23:59",
+        "due": "2023-09-18T23:59"
+    },
+    {
+        "_id": "A201",
+        "title": "Aerodynamics Quiz",
+        "course": "RS102",
+        "dueDate": "Sep 18, 2022 at 11:59PM",
+        "points": 100,
+        "description": "Week 0 - Basic Aerodynamics",
+        "availableFrom": "2022-09-11T23:59",
+        "availableUntil": "2022-09-25T23:59",
+        "due": "2023-09-18T23:59"
+    },
+    {
+        "_id": "A202",
+        "title": "Flow Analysis",
+        "course": "RS102",
+        "dueDate": "Sep 25, 2022 at 11:59PM",
+        "points": 100,
+        "description": "Week 1 - Analyzing Aerodynamic Flows",
+        "availableFrom": "2022-09-18T23:59",
+        "availableUntil": "2022-10-02T23:59",
+        "due": "2023-09-18T23:59"
+    },
+    {
+        "_id": "A203",
+        "title": "Heating Analysis",
+        "course": "RS102",
+        "dueDate": "Oct 02, 2022 at 11:59PM",
+        "points": 100,
+        "description": "Week 2 - Thermal Effects in High-Speed Flows",
+        "availableFrom": "2022-09-25T23:59",
+        "availableUntil": "2022-10-09T23:59",
+        "due": "2023-09-18T23:59"
+    },
+    {
+        "_id": "A204",
+        "title": "Computational Fluid Dynamics",
+        "course": "RS102",
+        "dueDate": "Oct 09, 2022 at 11:59PM",
+        "points": 100,
+        "description": "Week 3 - Introduction to CFD for Aerodynamics",
+        "availableFrom": "2022-10-02T23:59",
+        "availableUntil": "2022-10-16T23:59",
+        "due": "2023-09-18T23:59"
+    },
+    {
+        "_id": "A301",
+        "title": "Structural Design Task",
+        "course": "RS103",
+        "dueDate": "Sep 18, 2022 at 11:59PM",
+        "points": 100,
+        "description": "Week 0 - Fundamentals of Structural Design",
+        "availableFrom": "2022-09-11T23:59",
+        "availableUntil": "2022-09-25T23:59",
+        "due": "2023-09-18T23:59"
+    },
+    {
+        "_id": "A302",
+        "title": "Orbital Calculations",
+        "course": "RS103",
+        "dueDate": "Sep 25, 2022 at 11:59PM",
+        "points": 100,
+        "description": "Week 1 - Basics of Orbital Mechanics",
+        "availableFrom": "2022-09-18T23:59",
+        "availableUntil": "2022-10-02T23:59",
+        "due": "2023-09-18T23:59"
+    },
+    {
+        "_id": "A303",
+        "title": "Systems Engineering Exam",
+        "course": "RS103",
+        "dueDate": "Oct 02, 2022 at 11:59PM",
+        "points": 100,
+        "description": "Week 2 - Introduction to Systems Engineering",
+        "availableFrom": "2022-09-25T23:59",
+        "availableUntil": "2022-10-09T23:59",
+        "due": "2023-09-18T23:59"
+    },
+    {
+        "_id": "A304",
+        "title": "Material Science Project",
+        "course": "RS103",
+        "dueDate": "Oct 09, 2022 at 11:59PM",
+        "points": 100,
+        "description": "Week 3 - Advanced Materials for Aerospace Applications",
+        "availableFrom": "2022-10-02T23:59",
+        "availableUntil": "2022-10-16T23:59",
+        "due": "2023-09-18T23:59"
+    }
+]
